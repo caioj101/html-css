@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: darkred;
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(167, 0, 0);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(248, 98, 98);
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.452);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: rgb(167, 0, 0);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+        }
+
+        article {
+            background-color: lightcoral;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(77, 0, 0);
+            color: aliceblue;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p  {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Bostil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt tempora voluptate, quo quidem accusantium hic dolore, maxime tempore at minima excepturi? Cupiditate vitae quia quam. Autem rerum maiores id necessitatibus?</p>
+                <aside>
+                    <p>Artigo escrito por Caio Cardoso</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+    
+</body>
+</html>
